@@ -1,0 +1,5 @@
+{
+  "name": "OGT Cybersecurity Learning Game",
+  "description": "A modern, interactive educational game teaching SQL Injection, XSS, and IDOR vulnerabilities.",
+  "requestFramePermissions": []
+}
