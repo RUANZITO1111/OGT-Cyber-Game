@@ -3,6 +3,9 @@
 An interactive, modern, animated cybersecurity learning platform built by **OGT**.  
 This game teaches web security vulnerabilities through hands-on levels, real attack simulations, hints, animations, and mini-tutorials.
 
+
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 ---
 
 # 🌐 Live Demo   
